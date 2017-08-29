@@ -1,0 +1,49 @@
+package ermeichook.ruslan.sendchatfirebase.model;
+
+/**
+ * Created by pst on 29.08.2017.
+ */
+
+import com.google.firebase.database.Exclude;
+
+
+public class ChatMessage {
+
+    private String message;
+    private String sender;
+    private String recipient;
+
+    private int mRecipientOrSenderStatus;
+
+    public ChatMessage() {
+    }
+
+    public ChatMessage(String message, String sender, String recipient) {
+        this.message = message;
+        this.recipient = recipient;
+        this.sender = sender;
+    }
+
+
+    public void setRecipientOrSenderStatus(int recipientOrSenderStatus) {
+        this.mRecipientOrSenderStatus = recipientOrSenderStatus;
+    }
+
+
+    public String getMessage() {
+        return message;
+    }
+
+    public String getRecipient(){
+        return recipient;
+    }
+
+    public String getSender(){
+        return sender;
+    }
+
+    @Exclude
+    public int getRecipientOrSenderStatus() {
+        return mRecipientOrSenderStatus;
+    }
+}

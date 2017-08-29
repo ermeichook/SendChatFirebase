@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "133874619224",
+    "firebase_url": "https://sendchatfirebase.firebaseio.com",
+    "project_id": "sendchatfirebase",
+    "storage_bucket": "sendchatfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133874619224:android:33f0e0853b4d6579",
+        "android_client_info": {
+          "package_name": "ermeichook.ruslan.sendchatfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133874619224-e3fra0vpi9e86im8nsdd24oktjcml02a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFlCjodpjNTbzcifHDGKJuN-FMrtFS3zI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
