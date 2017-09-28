@@ -1,8 +1,5 @@
 package ermeichook.ruslan.sendchatfirebase.adapter;
 
-/**
- * Created by pst on 29.08.2017.
- */
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,15 +17,12 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import ermeichook.ruslan.sendchatfirebase.FireChatHelper.ChatHelper;
-import ermeichook.ruslan.sendchatfirebase.FireChatHelper.ExtraIntent;
+import ermeichook.ruslan.sendchatfirebase.firechathelper.ChatHelper;
+import ermeichook.ruslan.sendchatfirebase.firechathelper.ExtraIntent;
 import ermeichook.ruslan.sendchatfirebase.R;
 import ermeichook.ruslan.sendchatfirebase.model.User;
 import ermeichook.ruslan.sendchatfirebase.ui.ChatActivity;
 
-/**
- * Created by Marcel on 11/11/2015.
- */
 public class UsersChatAdapter extends RecyclerView.Adapter<UsersChatAdapter.ViewHolderUsers> {
 
     public static final String ONLINE = "online";

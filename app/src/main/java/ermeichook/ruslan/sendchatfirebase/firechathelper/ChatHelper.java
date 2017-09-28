@@ -1,8 +1,5 @@
-package ermeichook.ruslan.sendchatfirebase.FireChatHelper;
+package ermeichook.ruslan.sendchatfirebase.firechathelper;
 
-/**
- * Created by pst on 29.08.2017.
- */
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -13,9 +10,6 @@ import java.util.Random;
 
 import ermeichook.ruslan.sendchatfirebase.R;
 
-/**
- * Created by Marcel on 12/8/2015.
- */
 public class ChatHelper {
 
     private static Random randomAvatarGenerator = new Random();

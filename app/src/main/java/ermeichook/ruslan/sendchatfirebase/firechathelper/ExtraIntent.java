@@ -1,8 +1,5 @@
-package ermeichook.ruslan.sendchatfirebase.FireChatHelper;
+package ermeichook.ruslan.sendchatfirebase.firechathelper;
 
-/**
- * Created by pst on 29.08.2017.
- */
 
 public final class ExtraIntent {
     public static final String EXTRA_CHAT_REF = "EXTRA_CHAT_REF";

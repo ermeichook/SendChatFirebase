@@ -1,15 +1,12 @@
 package ermeichook.ruslan.sendchatfirebase.login;
 
-/**
- * Created by pst on 29.08.2017.
- */
+
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -23,7 +20,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import ermeichook.ruslan.sendchatfirebase.FireChatHelper.ChatHelper;
+import ermeichook.ruslan.sendchatfirebase.firechathelper.ChatHelper;
 import ermeichook.ruslan.sendchatfirebase.R;
 import ermeichook.ruslan.sendchatfirebase.adapter.UsersChatAdapter;
 import ermeichook.ruslan.sendchatfirebase.register.RegisterActivity;

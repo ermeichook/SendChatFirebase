@@ -1,8 +1,6 @@
 package ermeichook.ruslan.sendchatfirebase.register;
 
-/**
- * Created by pst on 29.08.2017.
- */
+
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -26,7 +24,7 @@ import java.util.Date;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import ermeichook.ruslan.sendchatfirebase.FireChatHelper.ChatHelper;
+import ermeichook.ruslan.sendchatfirebase.firechathelper.ChatHelper;
 import ermeichook.ruslan.sendchatfirebase.R;
 import ermeichook.ruslan.sendchatfirebase.adapter.UsersChatAdapter;
 import ermeichook.ruslan.sendchatfirebase.model.User;

@@ -1,16 +1,7 @@
 package ermeichook.ruslan.sendchatfirebase.model;
 
-/**
- * Created by pst on 29.08.2017.
- */
 
 import com.google.firebase.database.Exclude;
-import com.google.firebase.database.IgnoreExtraProperties;
-
-/**
- * @author Marcelino Yax-marce7j@gmail.com-Android Developer
- *         Created on 12/23/2016.
- */
 
 public class User {
 

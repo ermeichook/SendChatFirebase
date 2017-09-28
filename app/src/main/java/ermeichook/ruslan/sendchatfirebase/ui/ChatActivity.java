@@ -1,8 +1,5 @@
 package ermeichook.ruslan.sendchatfirebase.ui;
 
-/**
- * Created by pst on 29.08.2017.
- */
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -23,7 +20,7 @@ import java.util.ArrayList;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import ermeichook.ruslan.sendchatfirebase.FireChatHelper.ExtraIntent;
+import ermeichook.ruslan.sendchatfirebase.firechathelper.ExtraIntent;
 import ermeichook.ruslan.sendchatfirebase.R;
 import ermeichook.ruslan.sendchatfirebase.adapter.MessageChatAdapter;
 import ermeichook.ruslan.sendchatfirebase.model.ChatMessage;

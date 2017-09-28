@@ -1,8 +1,5 @@
 package ermeichook.ruslan.sendchatfirebase.adapter;
 
-/**
- * Created by pst on 29.08.2017.
- */
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -17,9 +14,6 @@ import java.util.List;
 import ermeichook.ruslan.sendchatfirebase.R;
 import ermeichook.ruslan.sendchatfirebase.model.ChatMessage;
 
-/**
- * Created by Marcel on 11/7/2015.
- */
 public class MessageChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>{
 
     private List<ChatMessage> mChatList;

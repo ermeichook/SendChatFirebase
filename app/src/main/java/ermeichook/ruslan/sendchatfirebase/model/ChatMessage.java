@@ -1,8 +1,5 @@
 package ermeichook.ruslan.sendchatfirebase.model;
 
-/**
- * Created by pst on 29.08.2017.
- */
 
 import com.google.firebase.database.Exclude;
 

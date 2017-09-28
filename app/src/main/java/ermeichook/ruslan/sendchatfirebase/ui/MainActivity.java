@@ -1,8 +1,5 @@
 package ermeichook.ruslan.sendchatfirebase.ui;
 
-/**
- * Created by pst on 29.08.2017.
- */
 
 import android.app.Activity;
 import android.content.Intent;
@@ -34,12 +31,6 @@ import ermeichook.ruslan.sendchatfirebase.adapter.UsersChatAdapter;
 import ermeichook.ruslan.sendchatfirebase.login.LogInActivity;
 import ermeichook.ruslan.sendchatfirebase.model.User;
 
-
-/*
-* CAUTION: This app is still far away from a production app
-* Note: (1) Still fixing some code, and functionality and
-*       I don't use FirebaseUI, but recommend you to use it.
-* */
 
 public class MainActivity extends Activity {
 
